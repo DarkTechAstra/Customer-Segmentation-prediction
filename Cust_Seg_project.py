@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load the trained model
-model = joblib.load('cust_seg_leg_reg.pkl')
+model = joblib.load('cust_seg_log_reg.pkl')
 
 # Create a Streamlit app
 st.title('Customer Segmentation Prediction')
